@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data
-The R script run_analysis.R has been created by following the course instructions for the course project Getting and cleaning Data. 
+The R script "run_analysis.R" has been created using the following instructions for the course project Getting and cleaning Data. 
 
 ####Below is the orginal text: 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
@@ -23,7 +23,3 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 - As long as the working dir is set correctly to the users environment, the code should work correctly.
 - The script contains some additional code that sets the working dir as well as downloads and unzips the data file to the users local machine. 
 - In the final step: the file is being wirtten to ot the following path: "c:/temp/tidy_data_set.txt"  
-
-
-
-
