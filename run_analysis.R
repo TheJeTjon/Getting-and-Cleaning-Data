@@ -25,7 +25,8 @@ if (!file.exists(destFolder)) {dir.create(destFolder)}
 # check if destination file  exists, if not download  
 if (!file.exists(destFileName)) {  download.file(URL, destFileName, method = "auto")}
 
-# unzip (destFileName, overwrite = TRUE, exdir = destZipDir)
+# always unzip 
+unzip (destFileName, overwrite = TRUE, exdir = destZipDir)
 
 ################################################################################
 # 1 Merges the training and the test sets to create one data set.
