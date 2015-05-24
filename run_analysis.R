@@ -47,7 +47,7 @@ unzip (destFileName, overwrite = TRUE, exdir = destZipDir)
 DataDirTest <- paste (DataDir, "/test/", sep = "")
 DataDirTrain <- paste (DataDir, "/train/", sep = "")
 
-# test dat sets 
+# test data sets 
 subject_test <- read.table(paste(DataDirTest, "subject_test.txt", sep=""))
 x_test <- read.table(paste(DataDirTest, "X_test.txt", sep=""))
 y_test <- read.table(paste(DataDirTest, "y_test.txt", sep=""))
