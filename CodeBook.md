@@ -11,7 +11,7 @@ A full description of the dataset and the variables will not be replicated here 
 
 ####Variables
 For this assignment the variables have been renamed from the original data.
-Below are the names next to thenew transformed names.  
+Below are the names next as well as the new transformed names.  
 
 ####Original Name 
 1	tBodyAcc-mean()-X
