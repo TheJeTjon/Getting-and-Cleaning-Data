@@ -100,7 +100,8 @@ names (x_merged) <- features$V2
 col_meand_stddev <- grep ("-mean\\(\\)|-std\\(\\)", features$V2)
 
 # use this for subsetting: 
-x_merged <- x_merged[, col_meand_stddev] 
+#x_mergeda <- x_merged[, col_meand_stddev] 
+x_merged<- x_merged[, col_meand_stddev] 
 
 ################################################################################
 # 3. Uses descriptive activity names to name the activities (Y data set)
