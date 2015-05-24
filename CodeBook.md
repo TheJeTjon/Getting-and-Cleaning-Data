@@ -81,6 +81,7 @@ Below are the names next to thenew transformed names.
 65	fBodyBodyGyroJerkMag-mean()
 66	fBodyBodyGyroJerkMag-std()
 
+
 ####New Variable Names 
 1	TimeDomain.BodyAccelleration.Mean.X
 2	TimeDomain.BodyAccelleration.Mean.Y
