@@ -12,7 +12,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-####The run_analysis.R that does the following. 
+####The script, run_analysis.R, that does the following. 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -22,4 +22,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ####NOTE(s): 
 - As long as the working dir is set correctly to the users environment, the code should work correctly.
 - The script contains some additional code that sets the working dir as well as downloads and unzips the data file to the users local machine. 
-- In the final step: the file is being wirtten to ot the following path: "c:/temp/tidy_data_set.txt"  
+- In the final step: the file is being written to ot the following path: "c:/temp/tidy_data_set.txt"  
