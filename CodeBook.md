@@ -16,8 +16,11 @@ Below are the names next to thenew transformed names.
 ####Original Name 
 1	tBodyAcc-mean()-X
 2	tBodyAcc-mean()-Y
+
 3	tBodyAcc-mean()-Z
+
 4	tBodyAcc-std()-X
+
 5	tBodyAcc-std()-Y
 6	tBodyAcc-std()-Z
 7	tGravityAcc-mean()-X
