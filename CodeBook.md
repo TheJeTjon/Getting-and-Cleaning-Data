@@ -1,19 +1,31 @@
 #CodeBook
 
-####Introduction 
-This codebook will describe the data set and the variables used for the Getting and Cleaning Data source project. 
+###Introduction 
+This codebook will describe the following 
 
-####Dataset and variables
+1. the data set and the variables used for the Getting and Cleaning Data source project. 
+
+2. Information about the experimental study design used 
+
+3. The summary choices made
+
+
+
+###1. the data set and the variables used for the Getting and Cleaning Data source project. 
 The data is part of the "Human Activity Recognition Using Smartphones Data Set"  
 Experiments were carried out with 30 volunteers, where a variety of six activities  was tracked using sensor data captured provided by smartphones (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The smartphone used in the experiment was a Samsung Galaxy SII. 
 
+###2. Information about the experimental study design used 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
-####Variables Renaming
+###3. The summary choices made
+The Summary choices made were: 
+a. Renaming Variables for clarity
+b. Removing Variables because they were derived / calculated from other variables.
+
+####a. Renaming Variables 
 For this assignment the variables have been renamed for clarity.
 Below are the original names next as well as the new transformed names.  
-
-
 
 ####Original Name 
 1	tBodyAcc-mean()-X
@@ -284,7 +296,7 @@ Below are the original names next as well as the new transformed names.
 
 66	FrequencyDomain.BodyBodyAngularVelocityMagnitude.StandardDeviation
 
-#### Variables Removed: 
+####b. Variables Removed: 
 The following variables were removed because they were derived / calculated from other variables. 
 Hence their removal from the Tidy dataset. 
 >	 tBodyAccJerk.mean.X,
@@ -309,7 +321,3 @@ Hence their removal from the Tidy dataset.
 >	tBodyGyroMag.std,
 >	tBodyGyroJerkMag.mean,
 >	tBodyGyroJerkMag.std
-
-
-
-
