@@ -16,9 +16,12 @@ Experiments were carried out with 30 volunteers, where a variety of six activiti
 ###2. Information about the experimental study design used. 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
+
+
 ###3. The summary choices
 The Summary choices made were: 
 a. Renaming Variables for clarity
+
 b. Removing Variables because they were derived / calculated from other variables.
 
 ####a. Renaming Variables 
