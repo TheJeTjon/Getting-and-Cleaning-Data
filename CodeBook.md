@@ -287,28 +287,29 @@ Below are the original names next as well as the new transformed names.
 #### Variables Removed: 
 The following variables were removed because they were derived / calculated from other variables. 
 Hence their removal from the Tidy dataset. 
->	 tBodyAccJerk.mean.X
->	tBodyAccJerk.mean.Y
->	tBodyAccJerk.mean.Z
->	tBodyAccJerk.std.X
->	tBodyAccJerk.std.Y
->	tBodyAccJerk.std.Z
->	tBodyGyroJerk.mean.X
->	tBodyGyroJerk.mean.Y
->	tBodyGyroJerk.mean.Z
->	tBodyGyroJerk.std.X
->	tBodyGyroJerk.std.Y
->	tBodyGyroJerk.std.Z
->	tBodyAccMag.mean
->	tBodyAccMag.std
->	tGravityAccMag.mean
->	tGravityAccMag.std
->	tBodyAccJerkMag.mean
->	tBodyAccJerkMag.std
->	tBodyGyroMag.mean
->	tBodyGyroMag.std
->	tBodyGyroJerkMag.mean
->	tBodyGyroJerkMag.std
+>	 tBodyAccJerk.mean.X,
+>	tBodyAccJerk.mean.Y,
+>	tBodyAccJerk.mean.Z,
+>	tBodyAccJerk.std.X,
+>	tBodyAccJerk.std.Y,
+>	tBodyAccJerk.std.Z,
+>	tBodyGyroJerk.mean.X,
+>	tBodyGyroJerk.mean.Y,
+>	tBodyGyroJerk.mean.Z,
+>	tBodyGyroJerk.std.X,
+>	tBodyGyroJerk.std.Y,
+>	tBodyGyroJerk.std.Z,
+>	tBodyAccMag.mean,
+>	tBodyAccMag.std,
+>	tGravityAccMag.mean,
+>	tGravityAccMag.std,
+>	tBodyAccJerkMag.mean,
+>	tBodyAccJerkMag.std,
+>	tBodyGyroMag.mean,
+>	tBodyGyroMag.std,
+>	tBodyGyroJerkMag.mean,
+>	tBodyGyroJerkMag.std,
+
 
 
 
