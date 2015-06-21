@@ -5,20 +5,18 @@ This codebook will describe the following
 
 1. the data set and the variables used for the Getting and Cleaning Data source project. 
 
-2. Information about the experimental study design used 
+2. Information about the experimental study design used.
 
-3. The summary choices made
-
-
+3. The summary choices made.
 
 ###1. the data set and the variables used for the Getting and Cleaning Data source project. 
 The data is part of the "Human Activity Recognition Using Smartphones Data Set"  
 Experiments were carried out with 30 volunteers, where a variety of six activities  was tracked using sensor data captured provided by smartphones (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The smartphone used in the experiment was a Samsung Galaxy SII. 
 
-###2. Information about the experimental study design used 
+###2. Information about the experimental study design used. 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
-###3. The summary choices made
+###3. The summary choices
 The Summary choices made were: 
 a. Renaming Variables for clarity
 b. Removing Variables because they were derived / calculated from other variables.
