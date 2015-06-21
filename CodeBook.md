@@ -56,6 +56,7 @@ Experiments were carried out with 30 volunteers, where a variety of six activiti
 >	[40] "FrequencyDomain.BodyAccellerationMagnitude.StandardDeviation"         
 >	[41] "FrequencyDomain.BodyBodyLinearAccelerationMagnitude.Mean"             
 >	[42] "FrequencyDomain.BodyBodyLinearAccelerationMagnitude.StandardDeviation"
+
 >	[43] "FrequencyDomain.BodyBodyAngularMagnitude.Mean"                        
 >	[44] "FrequencyDomain.BodyBodyAngularMagnitude.StandardDeviation"           
 >	[45] "FrequencyDomain.BodyBodyAngularVelocityMagnitude.Mean"                
