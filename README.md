@@ -22,4 +22,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ####NOTE(s): 
 - As long as the working dir is set correctly to the users environment, the code should work correctly.
 - The script contains some additional code that sets the working dir as well as downloads and unzips the data file to the users local machine. 
-- In the final step: the file is being written to the path: "c:/temp/tidy_data_set.txt"  
+- In the final step: the file is being written to the path: "./tidy_data_set.txt"  
