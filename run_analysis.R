@@ -7,7 +7,7 @@
 library (plyr)
 library (curl)
 library (dplyr)
-dell  <- "C:/Users/Jerry/DropBox/_Coursera/Getting and Cleaning Data/Week 3"
+dell  <- "C:/Users/Jerry/DropBox/_Coursera/3. Getting and Cleaning Data/Week 3"
 myDir <- dell
 init  <- function(dir=myDir){setwd(dir) }
 
@@ -113,7 +113,6 @@ x_merged<- x_merged[, col_meand_stddev]
 y_merged[, 1] <- activity_labels [y_merged[, 1], 2] 
 names (y_merged) <- "Activity" 
 
-
 ################################################################################
 # 4. Appropriately labels the x_data set with descriptive variable names. 
 ################################################################################
@@ -124,10 +123,33 @@ names(x_merged) <- gsub('\\(|\\)',"",names(x_merged), perl = TRUE)
 # make.names: Make syntactically valid names
 names(x_merged) <- make.names(names(x_merged))
 
+# get rid of the following variables - see features_info.txt because they are derived or calcuated from other columns
+# (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+# (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+filter_1  <- grepl("tBodyAccJerk", names(x_merged), ignore.case=TRUE)
+filter_2  <- grepl("tBodyGyroJerk", names(x_merged), ignore.case=TRUE)
+filter_3  <- grepl("tBodyAccMag", names(x_merged), ignore.case=TRUE)
+filter_4  <- grepl("tGravityAccMag", names(x_merged), ignore.case=TRUE)
+
+filter_5  <- grepl("tBodyAccJerkMag", names(x_merged), ignore.case=TRUE)
+filter_6  <- grepl("tBodyGyroMag", names(x_merged), ignore.case=TRUE)
+filter_7  <- grepl("tBodyGyroJerkMag", names(x_merged), ignore.case=TRUE)
+
+subset_filter <- c(names(x_merged)[filter_1], 
+                      names(x_merged)[filter_2],
+                      names(x_merged)[filter_3],
+                      names(x_merged)[filter_4],
+                      names(x_merged)[filter_5],
+                      names(x_merged)[filter_6],
+                      names(x_merged)[filter_7])
+
+# exclude variables v1, v2, v3
+myvars <- names(x_merged) %in% subset_filter
+x_merged <- x_merged[!myvars]
+
 # clearer names using  find and replace - see features_info.txt 
 # AccJerk = linear accelleration
 # GyroJerk = angular velocity
-
 names(x_merged) <- gsub("^t", "TimeDomain.",names(x_merged))
 names(x_merged) <- gsub("^f", "FrequencyDomain.",names(x_merged))
 names(x_merged) <- gsub("\\.mean", ".Mean",names(x_merged))
@@ -157,4 +179,4 @@ all_data_2 <- tbl_df(all_data)
 tidy_data_set <- all_data_2 %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))
 
 # Write the results to a text file 
-write.table(tidy_data_set, "c:/temp/tidy_data_set.txt", row.names= FALSE)
+write.table(tidy_data_set, "./tidy_data_set.txt", row.names= FALSE)
