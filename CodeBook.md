@@ -9,7 +9,7 @@ Experiments were carried out with 30 volunteers, where a variety of six activiti
 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
-####Variables
+####Variables Renaming
 For this assignment the variables have been renamed for clarity.
 Below are the original names next as well as the new transformed names.  
 
