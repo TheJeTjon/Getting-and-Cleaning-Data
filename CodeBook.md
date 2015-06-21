@@ -9,30 +9,6 @@ Experiments were carried out with 30 volunteers, where a variety of six activiti
 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
-#### Varibles Removed: 
->	 tBodyAccJerk.mean.X
->	tBodyAccJerk.mean.Y
->	tBodyAccJerk.mean.Z
->	tBodyAccJerk.std.X
->	tBodyAccJerk.std.Y
->	tBodyAccJerk.std.Z
->	tBodyGyroJerk.mean.X
->	tBodyGyroJerk.mean.Y
->	tBodyGyroJerk.mean.Z
->	tBodyGyroJerk.std.X
->	tBodyGyroJerk.std.Y
->	tBodyGyroJerk.std.Z
->	tBodyAccMag.mean
->	tBodyAccMag.std
->	tGravityAccMag.mean
->	tGravityAccMag.std
->	tBodyAccJerkMag.mean
->	tBodyAccJerkMag.std
->	tBodyGyroMag.mean
->	tBodyGyroMag.std
->	tBodyGyroJerkMag.mean
->	tBodyGyroJerkMag.std
-
 ####Variables
 For this assignment the variables have been renamed for clarity.
 Below are the original names next as well as the new transformed names.  
@@ -307,5 +283,32 @@ Below are the original names next as well as the new transformed names.
 65	FrequencyDomain.BodyBodyAngularVelocityMagnitude.Mean
 
 66	FrequencyDomain.BodyBodyAngularVelocityMagnitude.StandardDeviation
+
+#### Variables Removed: 
+The following variables were removed because they were derived / calculated from other variables. 
+Hence their removal from the Tidy dataset. 
+>	 tBodyAccJerk.mean.X
+>	tBodyAccJerk.mean.Y
+>	tBodyAccJerk.mean.Z
+>	tBodyAccJerk.std.X
+>	tBodyAccJerk.std.Y
+>	tBodyAccJerk.std.Z
+>	tBodyGyroJerk.mean.X
+>	tBodyGyroJerk.mean.Y
+>	tBodyGyroJerk.mean.Z
+>	tBodyGyroJerk.std.X
+>	tBodyGyroJerk.std.Y
+>	tBodyGyroJerk.std.Z
+>	tBodyAccMag.mean
+>	tBodyAccMag.std
+>	tGravityAccMag.mean
+>	tGravityAccMag.std
+>	tBodyAccJerkMag.mean
+>	tBodyAccJerkMag.std
+>	tBodyGyroMag.mean
+>	tBodyGyroMag.std
+>	tBodyGyroJerkMag.mean
+>	tBodyGyroJerkMag.std
+
 
 
