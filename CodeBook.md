@@ -308,7 +308,7 @@ Hence their removal from the Tidy dataset.
 >	tBodyGyroMag.mean,
 >	tBodyGyroMag.std,
 >	tBodyGyroJerkMag.mean,
->	tBodyGyroJerkMag.std,
+>	tBodyGyroJerkMag.std
 
 
 
