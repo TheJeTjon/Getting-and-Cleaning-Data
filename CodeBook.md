@@ -14,6 +14,8 @@ The data is part of the "Human Activity Recognition Using Smartphones Data Set"
 Experiments were carried out with 30 volunteers, where a variety of six activities  was tracked using sensor data captured provided by smartphones (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The smartphone used in the experiment was a Samsung Galaxy SII. 
 
 ####Variables of the Tidy Data set
+The variables Activity describe the activity that has been performed, while [Subject] describes the subject who performed the monitored Activity.  The other variables are the recorded sensor data. 
+
 >	[1] "Activity"                                                             
 >	 [2] "Subject"                                                              
 >	 [3] "TimeDomain.BodyAccelleration.Mean.X"                                  
