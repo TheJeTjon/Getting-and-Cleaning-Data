@@ -13,14 +13,62 @@ This codebook will describe the following
 The data is part of the "Human Activity Recognition Using Smartphones Data Set"  
 Experiments were carried out with 30 volunteers, where a variety of six activities  was tracked using sensor data captured provided by smartphones (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The smartphone used in the experiment was a Samsung Galaxy SII. 
 
+####Variables of the Tidy Data set
+>	[1] "Activity"                                                             
+>	 [2] "Subject"                                                              
+>	 [3] "TimeDomain.BodyAccelleration.Mean.X"                                  
+>	 [4] "TimeDomain.BodyAccelleration.Mean.Y"                                  
+>	 [5] "TimeDomain.BodyAccelleration.Mean.Z"                                  
+>	 [6] "TimeDomain.BodyAccelleration.StandardDeviation.X"                     
+>	 [7] "TimeDomain.BodyAccelleration.StandardDeviation.Y"                     
+>	 [8] "TimeDomain.BodyAccelleration.StandardDeviation.Z"                     
+>	 [9] "TimeDomain.GravityAccelleration.Mean.X"                               
+>	[10] "TimeDomain.GravityAccelleration.Mean.Y"                               
+>	[11] "TimeDomain.GravityAccelleration.Mean.Z"                               
+>	[12] "TimeDomain.GravityAccelleration.StandardDeviation.X"                  
+>	[13] "TimeDomain.GravityAccelleration.StandardDeviation.Y"                  
+>	[14] "TimeDomain.GravityAccelleration.StandardDeviation.Z"                  
+>	[15] "TimeDomain.BodyAngular.Mean.X"                                        
+>	[16] "TimeDomain.BodyAngular.Mean.Y"                                        
+>	[17] "TimeDomain.BodyAngular.Mean.Z"                                        
+>	[18] "TimeDomain.BodyAngular.StandardDeviation.X"                           
+>	[19] "TimeDomain.BodyAngular.StandardDeviation.Y"                           
+>	[20] "TimeDomain.BodyAngular.StandardDeviation.Z"                           
+>	[21] "FrequencyDomain.BodyAccelleration.Mean.X"                             
+>	[22] "FrequencyDomain.BodyAccelleration.Mean.Y"                             
+>	[23] "FrequencyDomain.BodyAccelleration.Mean.Z"                             
+>	[24] "FrequencyDomain.BodyAccelleration.StandardDeviation.X"                
+>	[25] "FrequencyDomain.BodyAccelleration.StandardDeviation.Y"                
+>	[26] "FrequencyDomain.BodyAccelleration.StandardDeviation.Z"                
+>	[27] "FrequencyDomain.BodyLinearAcceleration.Mean.X"                        
+>	[28] "FrequencyDomain.BodyLinearAcceleration.Mean.Y"                        
+>	[29] "FrequencyDomain.BodyLinearAcceleration.Mean.Z"                        
+>	[30] "FrequencyDomain.BodyLinearAcceleration.StandardDeviation.X"           
+>	[31] "FrequencyDomain.BodyLinearAcceleration.StandardDeviation.Y"           
+>	[32] "FrequencyDomain.BodyLinearAcceleration.StandardDeviation.Z"           
+>	[33] "FrequencyDomain.BodyAngular.Mean.X"                                   
+>	[34] "FrequencyDomain.BodyAngular.Mean.Y"                                   
+>	[35] "FrequencyDomain.BodyAngular.Mean.Z"                                   
+>	[36] "FrequencyDomain.BodyAngular.StandardDeviation.X"                      
+>	[37] "FrequencyDomain.BodyAngular.StandardDeviation.Y"                      
+>	[38] "FrequencyDomain.BodyAngular.StandardDeviation.Z"                      
+>	[39] "FrequencyDomain.BodyAccellerationMagnitude.Mean"                      
+>	[40] "FrequencyDomain.BodyAccellerationMagnitude.StandardDeviation"         
+>	[41] "FrequencyDomain.BodyBodyLinearAccelerationMagnitude.Mean"             
+>	[42] "FrequencyDomain.BodyBodyLinearAccelerationMagnitude.StandardDeviation"
+>	[43] "FrequencyDomain.BodyBodyAngularMagnitude.Mean"                        
+>	[44] "FrequencyDomain.BodyBodyAngularMagnitude.StandardDeviation"           
+>	[45] "FrequencyDomain.BodyBodyAngularVelocityMagnitude.Mean"                
+>	[46] "FrequencyDomain.BodyBodyAngularVelocityMagnitude.StandardDeviation" 
+
+
 ###2. Information about the experimental study design used. 
 A full description of the dataset and the variables will not be replicated here but can be found at, url: "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
 
-
 ###3. The summary choices
 The Summary choices made were: 
-a. Renaming Variables for clarity
+a. Renaming Variables for clarity.
 
 b. Removing Variables because they were derived / calculated from other variables.
 
